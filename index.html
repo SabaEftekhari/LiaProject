@@ -155,6 +155,7 @@
                                 <li id="preview" class="current-page textOutput img output-area"></li>
                             </ul>
                         </div>
+                        
                         <div id="rightArrow">
                             <button class="carousel__button carousel__button--right is-hidden">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -164,17 +165,35 @@
                                 </svg>
                             </button>
                         </div>
+                       
+
                     </div>
                     <div>
                     <div id="carouselBtn" class="carousel__nav">
                         <button class="carousel__indicator current-dot"></button>
                     </div>
+
+                    
+                    </div>
                 </div>
             </div>
             <div>
-                
-            </div>
-        </div>  
+                <div id="prompt">
+                    <textarea class="scroll-hide" placeholder="Enter your description here"></textarea>
+                </div>
+                    
+                <div class="layout-select">
+                    <label>Choose Styles:</label>
+                    <select id="layoutSelect" class="input">
+                        <option value='Test 1'>Test 1</option>
+                        <option value='Test 1'>Test 2</option>
+                        <option value='Test 1'>Test 3</option> 
+                    </select>
+                </div> 
+                <div id="generate_btn">
+                    <button class="save-btn btnShadow">Click to Generate</button>
+                </div>
+            </div>  
         <div class="footer" id="footerDiv"></div>
 
     </div>
